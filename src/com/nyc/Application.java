@@ -8,7 +8,7 @@ public class Application {
 	public static void main(String[] args) {
 		while(true) {
 		Scanner scan=new Scanner(System.in);
-		System.out.print("Guess your number: ");
+		System.out.print("Guess your number from 1 to 9: ");
 		int guessedNum=scan.nextInt();
 		Random rand=new Random();
 		int winnerNum=rand.nextInt(9)+1;
