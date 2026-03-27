@@ -1,13 +1,14 @@
 package com.nyc;
 
 public class MathOp {
-	int num1;
-	int num2;
-	public int add()
+	double num1;
+	int a;
+	double num2;
+	public double add()
 	{
 		return num1+num2;
 	}
-	public int mult()
+	public double mult()
 	{
 		return num1*num2;
 	}
