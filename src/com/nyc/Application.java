@@ -22,5 +22,8 @@ public class Application {
 			System.out.println("LOSER!");
 		}
 	}
+	public int addNumbers(int a, int b) {
+		return a+b;
+	}
 
 }
