@@ -1,9 +1,9 @@
 package com.nyc;
 
 public class MathOp {
-	double num1;
+	float num1;
 	int a;
-	double num2;
+	float num2;
 	public double add()
 	{
 		return num1+num2;
