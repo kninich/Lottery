@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Application {
 
+	//conflict example
 	public static void main(String[] args) {
 		//use loop
 		while(true) {
@@ -13,7 +14,7 @@ public class Application {
 		int guessedNum=scan.nextInt();
 		//generate guessed number
 		Random rand=new Random();
-		int winnerNum=rand.nextInt(99)+1;
+		int winnerNum=rand.nextInt(9)+1;
 		System.out.println("winner number is " + winnerNum);
 		
 		if(guessedNum==winnerNum) {
