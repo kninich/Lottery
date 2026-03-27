@@ -7,5 +7,9 @@ public class MathOp {
 	{
 		return num1+num2;
 	}
+	public int mult()
+	{
+		return num1*num2;
+	}
 
 }
