@@ -11,5 +11,9 @@ public class MathOp {
 	{
 		return num1*num2;
 	}
+	public int div()
+	{
+		return num1/num2;
+	}
 
 }
